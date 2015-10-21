@@ -174,6 +174,8 @@
   (host-part-header-bundle-for-resource bundle resource))
 (defmethod bundle-for-resource "Apache Software Foundation" [bundle resource]
   (host-part-header-bundle-for-resource bundle resource))
+(defmethod bundle-for-resource "Knopflerfish" [bundle resource]
+  (host-part-header-bundle-for-resource bundle resource))
 
 (defn- available [lib]
   "Return the bundle from which the given resource is available"
